@@ -68,7 +68,7 @@ class Userbot(Client):
             )
             try:
                 await self.one.send_message(
-                    config.LOG_GROUP_ID, f"**» ᴍᴜsɪᴄ ᴀssɪsᴛᴀɴᴛ ᴏɴᴇ sᴛᴀʀᴛᴇᴅ.\n\n❄ ɴᴀᴍᴇ :**{self.one.name}\n💫 **ᴜsᴇʀɴᴀᴍᴇ :** @{self.one.username}\n✨ **ɪᴅ :** {self.one.id}"
+                    config.LOG_GROUP_ID, f"**» мαяк ✗ ᴍᴜsɪᴄ ᴀssɪsᴛᴀɴᴛ ᴏɴᴇ sᴛᴀʀᴛᴇᴅ.\n\n❄ ɴᴀᴍᴇ :**{self.one.name}\n💫 **ᴜsᴇʀɴᴀᴍᴇ :** @{self.one.username}\n✨ **ɪᴅ :** {self.one.id}"
                 )
             except:
                 LOGGER(__name__).error(
@@ -95,7 +95,7 @@ class Userbot(Client):
                 self.two.name = get_me.first_name
             try:
                 await self.two.send_message(
-                    config.LOG_GROUP_ID, f"**» ᴍᴜsɪᴄ ᴀssɪsᴛᴀɴᴛ ᴏɴᴇ sᴛᴀʀᴛᴇᴅ.\n\n❄ ɴᴀᴍᴇ :**{self.two.name}\n💫 **ᴜsᴇʀɴᴀᴍᴇ :** @{self.two.username}\n✨ **ɪᴅ :** {self.two.id}"
+                    config.LOG_GROUP_ID, f"**» мαяк ✗ ᴍᴜsɪᴄ ᴀssɪsᴛᴀɴᴛ ᴏɴᴇ sᴛᴀʀᴛᴇᴅ.\n\n❄ ɴᴀᴍᴇ :**{self.two.name}\n💫 **ᴜsᴇʀɴᴀᴍᴇ :** @{self.two.username}\n✨ **ɪᴅ :** {self.two.id}"
                 )
             except:
                 LOGGER(__name__).error(
@@ -125,7 +125,7 @@ class Userbot(Client):
                 self.three.name = get_me.first_name
             try:
                 await self.three.send_message(
-                    config.LOG_GROUP_ID, f"**» ᴍᴜsɪᴄ ᴀssɪsᴛᴀɴᴛ ᴏɴᴇ sᴛᴀʀᴛᴇᴅ.\n\n❄ ɴᴀᴍᴇ :**{self.three.name}\n💫 **ᴜsᴇʀɴᴀᴍᴇ :** @{self.three.username}\n✨ **ɪᴅ :** {self.three.id}"
+                    config.LOG_GROUP_ID, f"**» мαяк ✗ ᴍᴜsɪᴄ ᴀssɪsᴛᴀɴᴛ ᴏɴᴇ sᴛᴀʀᴛᴇᴅ.\n\n❄ ɴᴀᴍᴇ :**{self.three.name}\n💫 **ᴜsᴇʀɴᴀᴍᴇ :** @{self.three.username}\n✨ **ɪᴅ :** {self.three.id}"
                 )
             except:
                 LOGGER(__name__).error(
@@ -155,7 +155,7 @@ class Userbot(Client):
                 self.four.name = get_me.first_name
             try:
                 await self.four.send_message(
-                    config.LOG_GROUP_ID, f"**» ᴍᴜsɪᴄ ᴀssɪsᴛᴀɴᴛ ᴏɴᴇ sᴛᴀʀᴛᴇᴅ.\n\n❄ ɴᴀᴍᴇ :**{self.four.name}\n💫 **ᴜsᴇʀɴᴀᴍᴇ :** @{self.four.username}\n✨ **ɪᴅ :** {self.four.id}"
+                    config.LOG_GROUP_ID, f"**» мαяк ✗ ᴍᴜsɪᴄ ᴀssɪsᴛᴀɴᴛ ᴏɴᴇ sᴛᴀʀᴛᴇᴅ.\n\n❄ ɴᴀᴍᴇ :**{self.four.name}\n💫 **ᴜsᴇʀɴᴀᴍᴇ :** @{self.four.username}\n✨ **ɪᴅ :** {self.four.id}"
                 )
             except:
                 LOGGER(__name__).error(
@@ -185,7 +185,7 @@ class Userbot(Client):
                 self.five.name = get_me.first_name
             try:
                 await self.five.send_message(
-                    config.LOG_GROUP_ID, f"**» ᴍᴜsɪᴄ ᴀssɪsᴛᴀɴᴛ ᴏɴᴇ sᴛᴀʀᴛᴇᴅ.\n\n❄ ɴᴀᴍᴇ :**{self.five.name}\n💫 **ᴜsᴇʀɴᴀᴍᴇ :** @{self.five.username}\n✨ **ɪᴅ :** {self.five.id}"
+                    config.LOG_GROUP_ID, f"**» мαяк ✗ ᴍᴜsɪᴄ ᴀssɪsᴛᴀɴᴛ ᴏɴᴇ sᴛᴀʀᴛᴇᴅ.\n\n❄ ɴᴀᴍᴇ :**{self.five.name}\n💫 **ᴜsᴇʀɴᴀᴍᴇ :** @{self.five.username}\n✨ **ɪᴅ :** {self.five.id}"
                 )
             except:
                 LOGGER(__name__).error(
