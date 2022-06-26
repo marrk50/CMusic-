@@ -103,7 +103,7 @@ clean = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/a688b59f56e0311ddad83.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/ba403b9d918ce8ebadf8a.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
