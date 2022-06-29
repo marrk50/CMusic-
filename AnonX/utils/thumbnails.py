@@ -93,13 +93,13 @@ async def gen_thumb(videoid):
             # changing circle color
             im = circle
             im = im.convert('RGBA')
-            color = white_col()
+            color = make_col()
 
             data = np.array(im)
             white, white, white, alpha = data.T
 
             white_areas = (white == 255) & (white == 255) & (white == 255)
-            data[..., :-1][white_areas.T] = color
+            data[..., :-1]
 
             im2 = Image.fromarray(data)
             circle = im2
