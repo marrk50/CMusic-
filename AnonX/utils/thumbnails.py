@@ -127,7 +127,7 @@ async def gen_thumb(videoid):
 
             image4 = ImageDraw.Draw(image2)
             image4.text((10, 10), "MARK MUSIC", fill="white", font = font1, align ="left") 
-            image4.text((670, 150), "MARK PLAYER", fill="red", font = font2, stroke_width=2, stroke_fill="white", align ="left") 
+            image4.text((600, 150), "MARRK PLAYER", fill="white", font = font2, stroke_width=2, stroke_fill="white", align ="left") 
 
             # title
             title1 = truncate(title)
@@ -143,7 +143,7 @@ async def gen_thumb(videoid):
             image4.text((670, 500), text=duration, fill="white", font = font4, align ="left") 
             image4.text((670, 550), text=channel, fill="white", font = font4, align ="left")
             
-            image2 = ImageOps.expand(image2,border=20,fill=make_col())
+            image2 = ImageOps.expand(image2,border=20,fill="white",)
             image2 = image2.convert('RGB')
             image2.save(f"cache/{videoid}.jpg")
             file = f"cache/{videoid}.jpg"
