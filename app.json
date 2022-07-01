@@ -1,7 +1,7 @@
 {
     "name": "marrk Music",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://telegra.ph/file/56d1760224589ee370186.jpg",
+    "logo": "https://te.legra.ph/file/e5a2ec72b3297955265cd.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -75,12 +75,12 @@
       },
       "PING_IMG_URL": {
         "description": "The pic which will be shown when you give the /ping cmd to the bot.",
-        "value": "",
+        "value": "https://te.legra.ph/file/e5a2ec72b3297955265cd.jpg",
         "required": false
       },
       "START_IMG_URL": {
         "description": "The pic which will be shown when you /start the bot in private.",
-        "value": "",
+        "value": "https://te.legra.ph/file/3dbbd2bb89b5e6f7b92dd.jpg",
         "required": false
       },
       "HEROKU_API_KEY": {
@@ -105,7 +105,7 @@
       },
       "SUPPORT_CHANNEL": {
         "description": "Link of your telegram channel.",
-        "value": "https://t.me/marrkchannel",
+        "value": "https://t.me/love_world135",
         "required": false
       }
     },
